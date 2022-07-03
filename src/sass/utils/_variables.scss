@@ -1,0 +1,15 @@
+:root {
+    --light-text-color: rgb(211, 96, 96);
+    --logo-text-color: #FFFEFE;
+    --background-color: #dba046;
+    --accent-color: #2d0d00a9;
+    --text-color: #5a210a9e;
+}
+
+//*---time---*//
+$timing-function-main: cubic-bezier(.42, 0, .58, 1);
+$time-main: 250ms;
+
+//*---fonts---*//
+$ff-main: 'DM Sans', sans-serif;
+$ff-accent: 'Titan One', cursive;
