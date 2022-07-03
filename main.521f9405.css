@@ -1,0 +1,123 @@
+:root {
+  --light-text-color: rgb(211, 96, 96);
+  --logo-text-color: #FFFEFE;
+  --background-color: #dba046;
+  --accent-color: #2d0d00a9;
+  --text-color: #5a210a9e;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("/bckground_brown.7caf879c.jpg");
+  background-repeat: no-repeat;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 80px;
+}
+
+.logotype__link {
+  color: #FFFEFE;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 110px;
+  top: 78px;
+}
+
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 66px;
+}
+
+.navigation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation__link {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 46px;
+  margin-right: 45px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  -webkit-transition: color 250ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: color 250ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.navigation__link::after {
+  content: url("/triangle_vector.2c6c60a1.svg");
+  color: var(--text-color);
+  position: relative;
+  top: 18px;
+  left: -50px;
+}
+
+.navigation__link::after:hover, .navigation__link::after:focus {
+  color: var(--accent-color);
+}
+
+.navigation__link:hover, .navigation__link:focus {
+  color: var(--accent-color);
+}
+
+
+/*# sourceMappingURL=/main.521f9405.css.map */
