@@ -61,6 +61,10 @@ header {
   margin-top: 80px;
 }
 
+header::after {
+  content: url("../img/icons/BreadMain.svg");
+}
+
 .logotype__link {
   color: #FFFEFE;
   font-family: "DM Sans", sans-serif;

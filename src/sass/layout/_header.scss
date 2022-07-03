@@ -1,5 +1,8 @@
 header {
     margin-top: 80px;
+    &::after {
+            content: url('../../img/icons/BreadMain.svg');
+        }
 }
 
 .logotype__link {
